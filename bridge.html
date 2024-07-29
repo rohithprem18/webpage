@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Bridge</title>
+    <style>
+          * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: rgb(240, 240, 240);
+            background: linear-gradient(90deg, rgba(240, 240, 240, 1) 0%, rgba(255, 204, 204, 1) 100%);
+            color: #333;
+            padding: 20px;
+        }
+
+        header {
+            background: rgb(255, 204, 204);
+            background: linear-gradient(90deg, rgba(255, 204, 204, 1) 0%, rgba(255, 150, 150, 1) 100%);
+            color: #333;
+            padding: 20px 0;
+            text-align: center;
+            border-radius: 15px;
+            border: 5px solid rgba(255, 150, 150, 1);
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 5px solid rgba(255, 150, 150, 1);
+            border-radius: 10px;
+            background: #fff;
+        }
+
+        .intro img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px;
+            border: 5px solid rgba(255, 150, 150, 1);
+            border-radius: 40px;
+        }
+
+        .intro p {
+            margin-bottom: 20px;
+        }
+
+        .details, .advantages {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            color: #333;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        mark {
+            background: rgba(255, 150, 150, 0.5);
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Network Bridge</h1>
+    </header>
+    <main>
+        <section class="intro">
+            <img src="images/bridge.png" alt="Network Bridge Image">
+            <p>
+                A <mark>network bridge</mark> is a device that connects two or more network segments, allowing them to function as a single network. Bridges operate at the data link layer (Layer 2) of the OSI model and are used to filter traffic, reduce collisions, and improve network performance by dividing a large network into smaller, manageable segments.
+            </p>
+        </section>
+        <section class="details">
+            <h2>How Network Bridges Work</h2>
+            <p>
+                Network bridges work by examining incoming data packets and forwarding them only to the segment of the network where the destination device is located. They maintain a MAC address table that helps them determine which segment to forward traffic to, thereby reducing unnecessary traffic and improving overall network efficiency.
+            </p>
+        </section>
+        <section class="advantages">
+            <h2>Advantages of Network Bridges</h2>
+            <ul>
+                <li><mark>Reduced Network Traffic</mark>: Bridges filter traffic, minimizing unnecessary data transmission across the network.</li>
+                <li><mark>Improved Network Performance</mark>: By dividing a network into segments, bridges help reduce collisions and improve performance.</li>
+                <li><mark>Enhanced Network Management</mark>: Bridges provide better control over network traffic, making it easier to manage and troubleshoot network issues.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Network Bridge Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Switch</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: rgb(230, 240, 250);
+            background: linear-gradient(90deg, rgba(230, 240, 250, 1) 0%, rgba(180, 200, 240, 1) 100%);
+            color: #000;
+            padding: 20px;
+        }
+
+        header {
+            background: rgb(180, 200, 240);
+            background: linear-gradient(90deg, rgba(180, 200, 240, 1) 0%, rgba(130, 160, 200, 1) 100%);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            border-radius: 15px;
+            border: 5px solid rgba(130, 160, 200, 1);
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 5px solid rgba(180, 200, 240, 1);
+            border-radius: 10px;
+            background: #fff;
+        }
+
+        .intro img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px;
+            border: 5px solid rgba(180, 200, 240, 1);
+            border-radius: 40px;
+        }
+
+        .intro p {
+            margin-bottom: 20px;
+        }
+
+        .details, .advantages {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            color: #000;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        mark {
+            background: rgba(180, 200, 240, 0.3);
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Network Switch</h1>
+    </header>
+    <main>
+        <section class="intro">
+            <img src="images/swithc.png" alt="Network Switch Image">
+            <p>
+                A <mark>network switch</mark> is a device that connects multiple devices on a local area network (LAN) and uses MAC addresses to forward data only to the specific device for which it is intended. Unlike a hub, which broadcasts data to all devices, a switch improves network efficiency by directing traffic to the intended recipient.
+            </p>
+        </section>
+        <section class="details">
+            <h2>How Network Switches Work</h2>
+            <p>
+                Network switches operate by creating a <mark>MAC address table</mark> that maps MAC addresses to specific ports. When a switch receives a data packet, it checks the destination MAC address and forwards the packet only to the port associated with that address. This process reduces network congestion and improves performance by minimizing unnecessary traffic.
+            </p>
+        </section>
+        <section class="advantages">
+            <h2>Advantages of Network Switches</h2>
+            <ul>
+                <li><mark>Increased Network Efficiency</mark>: Switches minimize network congestion by directing traffic only to the necessary devices.</li>
+                <li><mark>Enhanced Performance</mark>: They improve overall network performance by managing data traffic more effectively.</li>
+                <li><mark>Scalability</mark>: Switches allow for the expansion of networks by adding more devices without significant performance degradation.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Network Switch Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>

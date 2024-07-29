@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Network Hub</title>
+    <style>
+       * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: rgb(240, 245, 250);
+            background: linear-gradient(90deg, rgba(240, 245, 250, 1) 0%, rgba(200, 220, 230, 1) 100%);
+            color: #000;
+            padding: 20px;
+        }
+
+        header {
+            background: rgb(200, 220, 230);
+            background: linear-gradient(90deg, rgba(200, 220, 230, 1) 0%, rgba(150, 180, 200, 1) 100%);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            border-radius: 15px;
+            border: 5px solid rgba(150, 180, 200, 1);
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 5px solid rgba(200, 220, 230, 1);
+            border-radius: 10px;
+            background: #fff;
+        }
+
+        .intro img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px;
+            border: 5px solid rgba(200, 220, 230, 1);
+            border-radius: 40px;
+        }
+
+        .intro p {
+            margin-bottom: 20px;
+        }
+
+        .details, .advantages {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            color: #000;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        mark {
+            background: rgba(200, 220, 230, 0.3);
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Network Hub</h1>
+    </header>
+    <main>
+        <section class="intro">
+            <img src="images/hub.png" alt="Network Hub Image">
+            <p>
+                A <mark>network hub</mark> is a basic networking device that connects multiple devices in a network, allowing them to communicate with each other. Unlike a <mark>switch</mark>, a hub sends data to all connected devices, regardless of the intended recipient, which can lead to network inefficiencies and collisions.
+            </p>
+        </section>
+        <section class="details">
+            <h2>How Network Hubs Work</h2>
+            <p>
+                Network hubs work by receiving incoming data packets from one device and broadcasting them to all other connected devices. Each device on the network receives the data, regardless of whether it is the intended recipient. This broadcast method can lead to network congestion and reduced performance as the number of devices increases.
+            </p>
+        </section>
+        <section class="advantages">
+            <h2>Advantages of Network Hubs</h2>
+            <ul>
+                <li><mark>Simplicity</mark>: Hubs are simple devices that are easy to set up and configure.</li>
+                <li><mark>Cost-Effective</mark>: They are generally less expensive than switches and other networking equipment.</li>
+                <li><mark>Basic Connectivity</mark>: Ideal for small networks where advanced features are not required.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Network Hub Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>

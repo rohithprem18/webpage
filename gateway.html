@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gateway</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: rgb(255, 245, 235);
+            background: linear-gradient(90deg, rgba(255, 245, 235, 1) 0%, rgba(255, 200, 150, 1) 100%);
+            color: #333;
+            padding: 20px;
+        }
+
+        header {
+            background: rgb(255, 200, 150);
+            background: linear-gradient(90deg, rgba(255, 200, 150, 1) 0%, rgba(200, 100, 50, 1) 100%);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            border-radius: 15px;
+            border: 5px solid rgba(200, 100, 50, 1);
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 5px solid rgba(255, 200, 150, 1);
+            border-radius: 10px;
+            background: #fff;
+        }
+
+        .intro img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px;
+            border: 5px solid rgba(255, 200, 150, 1);
+            border-radius: 40px;
+        }
+
+        .intro p {
+            margin-bottom: 20px;
+        }
+
+        .details, .advantages {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            color: #333;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        mark {
+            background: rgba(255, 200, 150, 0.3);
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Gateway</h1>
+    </header>
+    <main>
+        <section class="intro">
+            <img src="images/gateway.png" alt="Gateway Image">
+            <p>
+                A <mark>gateway</mark> is a network node that serves as an access point to another network. Gateways are essential for communication between different networks, as they handle protocol translations, data conversions, and other tasks necessary to route data between networks that use different protocols. They operate at various layers of the OSI model, depending on the type of gateway.
+            </p>
+        </section>
+        <section class="details">
+            <h2>How Gateways Work</h2>
+            <p>
+                Gateways work by receiving data from one network, processing it to be compatible with the target network, and then forwarding it accordingly. They can perform protocol conversions to ensure seamless communication between different types of networks. For example, an email gateway can convert an email message from one format to another to ensure it can be received by the recipient's email system.
+            </p>
+        </section>
+        <section class="advantages">
+            <h2>Advantages of Gateways</h2>
+            <ul>
+                <li><mark>Protocol Translation</mark>: Gateways enable communication between networks using different protocols.</li>
+                <li><mark>Network Interconnection</mark>: They allow for the connection of different network architectures and systems.</li>
+                <li><mark>Data Conversion</mark>: Gateways can convert data formats to ensure compatibility between different systems and applications.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Gateway Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>

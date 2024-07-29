@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Router</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background: rgb(245, 245, 255);
+            background: linear-gradient(90deg, rgba(245, 245, 255, 1) 0%, rgba(180, 200, 255, 1) 100%);
+            color: #000;
+            padding: 20px;
+        }
+
+        header {
+            background: rgb(180, 200, 255);
+            background: linear-gradient(90deg, rgba(180, 200, 255, 1) 0%, rgba(120, 150, 200, 1) 100%);
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+            border-radius: 15px;
+            border: 5px solid rgba(120, 150, 200, 1);
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border: 5px solid rgba(180, 200, 255, 1);
+            border-radius: 10px;
+            background: #fff;
+        }
+
+        .intro img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin: 0 auto 20px;
+            border: 5px solid rgba(180, 200, 255, 1);
+            border-radius: 40px;
+        }
+
+        .intro p {
+            margin-bottom: 20px;
+        }
+
+        .details, .advantages {
+            margin-bottom: 20px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            color: #000;
+            margin-top: 20px;
+            border-radius: 5px;
+        }
+
+        mark {
+            background: rgba(180, 200, 255, 0.3);
+            color: #000;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Router</h1>
+    </header>
+    <main>
+        <section class="intro">
+            <img src="images/router.png" alt="Router Image">
+            <p>
+                A <mark>router</mark> is a networking device that forwards data packets between computer networks. It connects multiple networks, directs data along the most efficient paths, and manages traffic within a network. Routers operate at the network layer (Layer 3) of the OSI model and can be used for both wired and wireless connections.
+            </p>
+        </section>
+        <section class="details">
+            <h2>How Routers Work</h2>
+            <p>
+                Routers work by examining data packets' destination IP addresses and determining the best path for the data to reach its destination. They use routing tables and protocols to make these decisions and can perform tasks such as Network Address Translation (NAT) and traffic management. Routers can connect different types of networks, including local area networks (LANs) and wide area networks (WANs).
+            </p>
+        </section>
+        <section class="advantages">
+            <h2>Advantages of Routers</h2>
+            <ul>
+                <li><mark>Efficient Data Routing</mark>: Routers optimize data paths, improving network efficiency and performance.</li>
+                <li><mark>Network Segmentation</mark>: They enable the segmentation of networks, enhancing organization and security.</li>
+                <li><mark>Connectivity</mark>: Routers provide connectivity between different networks and support various networking technologies.</li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Router Page. All rights reserved.</p>
+    </footer>
+</body>
+</html>
